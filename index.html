@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <p style='border:2px solid black;font-size:x-large;'>
+        &not;p &or; q &equiv; p &rarr; q &emsp;<br> &forall; means for all | &exist; means at least one exists <br>
+        Hold CTRL for they keybinds
+    </p>
+    <div id='binds' style='position: absolute;font-size: larger; border:solid 2px black; background-color:lightblue' hidden>
+        <div style='border:1px blue dotted;background-color: peru;'>Keybinds</div>
+        or, || => &or; <br>
+        and, && => &and; <br>
+        bicond, == => &equiv; <br>
+        implies, -> => &rarr; <br>
+        all => &forall; <br>
+        exists => &exist; <br>
+    </div>
+
+    <textarea rows=20 cols=75 id='ta' style='border:none;outline:none;padding:10px;font-size: x-large;' spellcheck="false"></textarea>
+    <script src='logic.js'></script>
+</body>
+</html>
